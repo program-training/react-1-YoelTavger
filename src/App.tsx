@@ -1,12 +1,10 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import Text from "./components/Example/Text";
 
-function App() {
+export default function App(): JSX.Element {
   return (
-    <>
-      <Example />{" "}
-    </>
+    <div>
+      <Text />
+    </div>
   );
 }
-
-export default App;
