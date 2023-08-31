@@ -1,0 +1,14 @@
+img {
+  width: 180px;
+}
+.card {
+  border: white solid 3px;
+  margin: 7px;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: brown;
+}
